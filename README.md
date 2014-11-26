@@ -2,7 +2,7 @@
 
 ## What it does
 
-Mautic SPI is single PHP file, which can download latest Mautic ZIP package from [Mautic.org](https://www.mautic.org/) and unzip it on the server. Current unzipped Matuic files has 73 MB. It can take few hours to upload to your server via FTP (depends on your internet connection). Mautic SPI script communicates directly between servers. To download and unzip Mautic on your server takes few seconds.
+Mautic SPI is single PHP file, which can download latest Mautic ZIP package from [Mautic.org](https://www.mautic.org/) and unzip it on the server. Current unzipped Matuic files has 73 MB and over 10 000 files. It can take few hours to upload to your server via FTP (depends on your internet connection). Mautic SPI script communicates directly between servers. To download and unzip Mautic on your server takes few seconds.
 
 ## How to use it
 
