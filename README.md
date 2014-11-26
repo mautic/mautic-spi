@@ -1,8 +1,8 @@
 # Mautic Single Page Installer
 
-# How to use it
+## How to use it
 
-1. Download files of this repo by clicking "Download ZIP" button on right bottom corner of this ([GitHub]()) page.
+1. Download files of this repo by clicking "Download ZIP" button on right bottom corner of this ([GitHub](https://github.com/escopecz/mautic-spi)) page.
 2. Unzip downloaded package somewhere on your computer.
 3. Upload start.php (via FTP problably) to the folder on your server wher you want Mautic to be installed.
 4. Go to the URL where Mautic will be and add start.php behind the last slash. Example: http://mautic.myweb.com/start.php
