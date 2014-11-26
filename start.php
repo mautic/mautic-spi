@@ -158,7 +158,6 @@ class MauticSingleStart
 					 {
 						 jQuery.ajax( { 'url': 'progress.json', 'type': 'post', 'dataType': 'json' } )
 								 .done( function( msg ) {
-								 	console.log(msg);
 									 jQuery( '.progress-bar' ).css( 'width',  msg.progress + '%' );
 									 jQuery( '.label-info' ).html(  msg.progress + '%' );
 								 } );
@@ -178,8 +177,7 @@ class MauticSingleStart
 										jQuery( '.progress-bar' ).css( 'width',  '100%' );
 										jQuery( '.label-info' ).html(  '100%' );
 										finished = true;
-										console.log('finished')
-										// window.location = 'index.php';
+										window.location = '/installer';
 									} );
 							} );
 						} )
