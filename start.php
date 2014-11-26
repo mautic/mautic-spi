@@ -177,7 +177,7 @@ class MauticSingleStart
 										jQuery( '.progress-bar' ).css( 'width',  '100%' );
 										jQuery( '.label-info' ).html(  '100%' );
 										finished = true;
-										window.location = '/installer';
+										window.location = 'installer';
 									} );
 							} );
 						} )
