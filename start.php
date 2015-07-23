@@ -6,7 +6,7 @@ class MauticSingleStart
 	public $localfile = 'mautic-latest.zip';
 
 	// The URL where the current download link can be found
-	public $downloadURL = 'https://www.mautic.org/component/mauticdownload/?task=downloadPackage';
+	public $downloadURL = 'https://updates.mautic.org/component/mauticdownload/?task=downloadPackage';
 
 	public function __construct()
 	{
@@ -88,7 +88,7 @@ class MauticSingleStart
 		<head>
 			<title>Mautic Single Page Installer</title>
 			<link href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-			<link rel="icon" href="https://www.mautic.org/templates/mautic/favicon.ico">
+			<link rel="icon" href="https://www.mautic.org/wp-content/uploads/2014/08/favicon.png">
 			<style type="text/css">
 				a.navbar-brand img {
 					max-height: 100%;
@@ -116,8 +116,8 @@ class MauticSingleStart
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav pull-right">
-						<li><a href="http://mautic.org" target="_blank">Mautic.org</a></li>
-						<li><a href="http://mautic.org/download" target="_blank">Download Page</a></li>
+						<li><a href="https://www.mautic.org" target="_blank">Mautic.org</a></li>
+						<li><a href="https://www.mautic.org/download" target="_blank">Download Page</a></li>
 						<li><a href="https://www.mautic.org/get-involved/group-chats" target="_blank">Support</a></li>
 					</ul>
 				</div>
